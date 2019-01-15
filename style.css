@@ -1,0 +1,23 @@
+.container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    align-items: center;
+}
+
+.buttons-block {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+button  {
+    margin-top: 5px;
+}
+
+#calculate {
+    margin-left: 20px;
+    margin-top: unset;
+}
