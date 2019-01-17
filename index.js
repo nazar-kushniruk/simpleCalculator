@@ -44,8 +44,8 @@ window.onload = function () {
 
     function count(item1, item2, item) {
         const result;
-        count firstNum = parseFloat(item1.value);
-        count secondNum = parseFloat(item2.value);
+        const firstNum = parseFloat(item1.value);
+        const secondNum = parseFloat(item2.value);
 
         switch (item.id) {
 
